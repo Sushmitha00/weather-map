@@ -1,0 +1,139 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100px;
+    background-color: white;
+
+}
+
+#search-form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp{
+    text-align: center;
+    max-width: fit-content  ;
+    max-height: 20%;
+   
+
+}
+
+#temp-unit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 500px;
+
+}
+#temp-value{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 200px;
+    margin-left: 129px;
+
+}
+
+
+#Climate{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+
+
+#location{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+temp-icon{
+    margin: 1rem;
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+    flex: 1;
+    
+}
+.img{
+    width: auto;
+    height: 150px;
+    align-items: center;
+    margin-left: 107px;
+}
+
+
+main{
+    padding: 20px;
+    margin:10px;
+    background-color: #6b778d;
+    border-radius: 20px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+    width: 400px;
+    
+}
+
+#search-button{
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border:2px solid #494949 ;
+    transition: all 0.4 eas 0s;
+    
+
+}
+
+#search-button{
+    color: #ffffff;
+    background: #ff6768;
+    border-color:#ff6768;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    
+}
+
+#search-input{
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin:8px 0 ;
+    padding: 8px 0;
+    border-bottom: 3px solid #da6868;
+    color: wheat;
+    outline: none;
+    background: none;
+
+
+}
+input{
+    border: none;
+}
+
+
+
+
